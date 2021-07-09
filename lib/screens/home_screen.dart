@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        actions: [ElevatedButton(onPressed: ()=> Navigator.pushNamed(context, DetailScreen.id), child: Text('go'))],
+        actions: [ElevatedButton(onPressed: ()=> Navigator.pushNamed(context, DetailScreen.id ), child: Text('go'))],
 
       ),
       bottomNavigationBar: CurvedNavigationBar(
